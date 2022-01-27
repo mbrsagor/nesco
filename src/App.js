@@ -2,13 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/app.scss';
 
 import Header from './components/header';
-import Sidebar from './components/sidebar';
+import Layout from './components/layout';
 
 function App() {
   return (
     <>
       <Header />
-      <Sidebar />
+      <Layout />
     </>
   );
 }
