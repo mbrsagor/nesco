@@ -1,11 +1,11 @@
 import './scss/app.scss';
-
+import Sidebar from './components/sidebar'
 
 function App() {
   return (
-    <>
-      <h2>Hello developer</h2>
-    </>
+    <div className="container">
+      <Sidebar />
+    </div>
   );
 }
 
