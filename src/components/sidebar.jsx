@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
     <nav className="sidebar sidebar-offcanvas" id="sidebar">
       <ul className="nav">
         <li className="nav-item nav-profile">
-          <a href="/" className="nav-link">
+          <Link to="/" className="nav-link">
             <div className="profile-image">
               <img
                 className="img-xs rounded-circle"
@@ -15,17 +16,23 @@ export default function Sidebar() {
               <div className="dot-indicator bg-success"></div>
             </div>
             <div className="text-wrapper">
-              <p className="profile-name">Allen Moreno</p>
-              <p className="designation">Premium user</p>
+              <p className="profile-name">Bozlur Rosid Sagor</p>
+              <p className="designation">Superuser</p>
             </div>
-          </a>
+          </Link>
         </li>
         <li className="nav-item nav-category">Main Menu</li>
         <li className="nav-item">
-          <a className="nav-link" href="index.html">
+          <Link className="nav-link" to="/">
             <i className="menu-icon typcn typcn-document-text"></i>
             <span className="menu-title">Dashboard</span>
-          </a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/blank">
+            <i className="menu-icon typcn typcn-shopping-bag"></i>
+            <span className="menu-title">Create Shop</span>
+          </Link>
         </li>
         <li className="nav-item">
           <a
@@ -36,34 +43,28 @@ export default function Sidebar() {
             aria-controls="ui-basic"
           >
             <i className="menu-icon typcn typcn-coffee"></i>
-            <span className="menu-title">Basic UI Elements</span>
+            <span className="menu-title">Product Management</span>
             <i className="menu-arrow"></i>
           </a>
           <div className="collapse" id="ui-basic">
             <ul className="nav flex-column sub-menu">
               <li className="nav-item">
-                <a className="nav-link" href="pages/ui-features/buttons.html">
-                  Buttons
-                </a>
+                <Link className="nav-link" to="/blank">
+                 Add New Product
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="pages/ui-features/dropdowns.html">
-                  Dropdowns
-                </a>
+                <Link className="nav-link" to="/blank">
+                Add new product
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="pages/ui-features/typography.html">
-                  Typography
-                </a>
+                <Link className="nav-link" to="/blank">
+                Product List
+                </Link>
               </li>
             </ul>
           </div>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="pages/forms/basic_elements.html">
-            <i className="menu-icon typcn typcn-shopping-bag"></i>
-            <span className="menu-title">Form elements</span>
-          </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="pages/charts/chartjs.html">

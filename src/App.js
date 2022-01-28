@@ -1,12 +1,8 @@
 import './scss/app.scss';
-import Blank from "./pages/blank";
+import Router from './router';
 
 function App() {
-  return (
-    <>
-      <Blank />
-    </>
-  );
+  return <Router />
 }
 
-export default App;
+export default App
