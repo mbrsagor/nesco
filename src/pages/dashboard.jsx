@@ -1,14 +1,8 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
-import Sidebar from './sidebar';
 
-export default function Layout() {
+export default function Dashboard() {
   return (
-    <div className="container-scroller">
-      <Header />
-      <div className="container-fluid page-body-wrapper">
-        <Sidebar />
+      <>
         <div className="main-panel">
           <div className="content-wrapper">
             <div className="row page-title-header">
@@ -17,46 +11,15 @@ export default function Layout() {
                   <h4 className="page-title">Dashboard</h4>
                   <div className="quick-link-wrapper w-100 d-md-flex flex-md-wrap">
                     <ul className="quick-links">
-                      <li><a href="/">ICE Market data</a></li>
-                      <li><a href="/">Own analysis</a></li>
-                      <li><a href="/">Historic market data</a></li>
+                      <li><a href="#">ICE Market data</a></li>
+                      <li><a href="#">Own analysis</a></li>
+                      <li><a href="#">Historic market data</a></li>
                     </ul>
                     <ul className="quick-links ml-auto">
-                      <li><a href="/">Settings</a></li>
-                      <li><a href="/">Analytics</a></li>
-                      <li><a href="/">Watchlist</a></li>
+                      <li><a href="#">Settings</a></li>
+                      <li><a href="#">Analytics</a></li>
+                      <li><a href="#">Watchlist</a></li>
                     </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-12">
-                <div className="page-header-toolbar">
-                  <div className="btn-group toolbar-item" role="group" aria-label="Basic example">
-                    <button type="button" className="btn btn-secondary"><i className="mdi mdi-chevron-left"></i></button>
-                    <button type="button" className="btn btn-secondary">03/02/2019 - 20/08/2019</button>
-                    <button type="button" className="btn btn-secondary"><i className="mdi mdi-chevron-right"></i></button>
-                  </div>
-                  <div className="filter-wrapper">
-                    <div className="dropdown toolbar-item">
-                      <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownsorting" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Day</button>
-                      <div className="dropdown-menu" aria-labelledby="dropdownsorting">
-                        <a className="dropdown-item" href="/">Last Day</a>
-                        <a className="dropdown-item" href="/">Last Month</a>
-                        <a className="dropdown-item" href="/">Last Year</a>
-                      </div>
-                    </div>
-                    <a href="/" className="advanced-link toolbar-item">Advanced Options</a>
-                  </div>
-                  <div className="sort-wrapper">
-                    <button type="button" className="btn btn-primary toolbar-item">New</button>
-                    <div className="dropdown ml-lg-auto ml-3 toolbar-item">
-                      <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownexport" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Export</button>
-                      <div className="dropdown-menu" aria-labelledby="dropdownexport">
-                        <a className="dropdown-item" href="/">Export as PDF</a>
-                        <a className="dropdown-item" href="/">Export as DOCX</a>
-                        <a className="dropdown-item" href="/">Export as CDR</a>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -128,16 +91,16 @@ export default function Layout() {
                       <p>Lorem ipsum is placeholder text commonly used</p>
                       <ul className="nav nav-tabs sales-mini-tabs ml-lg-auto mb-4 mb-md-0" role="tablist">
                         <li className="nav-item">
-                          <a href="#0" className="nav-link active" id="sales-statistics_switch_1" data-toggle="tab" role="tab" aria-selected="true">1D</a>
+                          <a className="nav-link active" id="sales-statistics_switch_1" data-toggle="tab" role="tab" aria-selected="true">1D</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#0" className="nav-link" id="sales-statistics_switch_2" data-toggle="tab" role="tab" aria-selected="false">5D</a>
+                          <a className="nav-link" id="sales-statistics_switch_2" data-toggle="tab" role="tab" aria-selected="false">5D</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#0" className="nav-link" id="sales-statistics_switch_3" data-toggle="tab" role="tab" aria-selected="false">1M</a>
+                          <a className="nav-link" id="sales-statistics_switch_3" data-toggle="tab" role="tab" aria-selected="false">1M</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#0" className="nav-link" id="sales-statistics_switch_4" data-toggle="tab" role="tab" aria-selected="false">1Y</a>
+                          <a className="nav-link" id="sales-statistics_switch_4" data-toggle="tab" role="tab" aria-selected="false">1Y</a>
                         </li>
                       </ul>
                     </div>
@@ -233,7 +196,7 @@ export default function Layout() {
                       <div className="card-body">
                         <div className="d-flex justify-content-between">
                           <h4 className="card-title mb-0">Invoice</h4>
-                          <a href="/"><small>Show All</small></a>
+                          <a href="#"><small>Show All</small></a>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quod cupiditate esse fuga</p>
                         <div className="table-responsive">
@@ -488,7 +451,7 @@ export default function Layout() {
                       </div>
                       <small className="text-muted ml-auto">Edit event</small>
                     </div>
-                    <a className="d-block mt-5" href="/">Show all</a>
+                    <a className="d-block mt-5" href="#">Show all</a>
                   </div>
                 </div>
               </div>
@@ -501,27 +464,27 @@ export default function Layout() {
                     </div>
                     <ul className="timeline">
                       <li className="timeline-item">
-                        <p className="timeline-content"><a href="/">Ben Tossell</a> assign you a task</p>
+                        <p className="timeline-content"><a href="#">Ben Tossell</a> assign you a task</p>
                         <p className="event-time">Just now</p>
                       </li>
                       <li className="timeline-item">
-                        <p className="timeline-content"><a href="/">Ben Tossell</a> assign you a task</p>
+                        <p className="timeline-content"><a href="#">Ben Tossell</a> assign you a task</p>
                         <p className="event-time">Just now</p>
                       </li>
                       <li className="timeline-item">
-                        <p className="timeline-content"><a href="/">Ben Tossell</a> assign you a task</p>
+                        <p className="timeline-content"><a href="#">Ben Tossell</a> assign you a task</p>
                         <p className="event-time">Just now</p>
                       </li>
                       <li className="timeline-item">
-                        <p className="timeline-content"><a href="/">Ben Tossell</a> assign you a task</p>
+                        <p className="timeline-content"><a href="#">Ben Tossell</a> assign you a task</p>
                         <p className="event-time">Just now</p>
                       </li>
                       <li className="timeline-item">
-                        <p className="timeline-content"><a href="/">Ben Tossell</a> assign you a task</p>
+                        <p className="timeline-content"><a href="#">Ben Tossell</a> assign you a task</p>
                         <p className="event-time">Just now</p>
                       </li>
                     </ul>
-                    <a className="d-block mt-3" href="/">Show all</a>
+                    <a className="d-block mt-3" href="#">Show all</a>
                   </div>
                 </div>
               </div>
@@ -570,15 +533,14 @@ export default function Layout() {
                         </tbody>
                       </table>
                     </div>
-                    <a className="d-block mt-3" href="/">Show all</a>
+                    <a className="d-block mt-3" href="#">Show all</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
-      </div>
-    </div>
+      </>
   );
 }
