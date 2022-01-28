@@ -5,22 +5,6 @@ export default function Sidebar() {
   return (
     <nav className="sidebar sidebar-offcanvas" id="sidebar">
       <ul className="nav">
-        <li className="nav-item nav-profile">
-          <Link to="/" className="nav-link">
-            <div className="profile-image">
-              <img
-                className="img-xs rounded-circle"
-                src="assets/images/faces/face8.jpg"
-                alt="profile"
-              />
-              <div className="dot-indicator bg-success"></div>
-            </div>
-            <div className="text-wrapper">
-              <p className="profile-name">Bozlur Rosid Sagor</p>
-              <p className="designation">Superuser</p>
-            </div>
-          </Link>
-        </li>
         <li className="nav-item nav-category">Main Menu</li>
         <li className="nav-item">
           <Link className="nav-link" to="/">
@@ -104,24 +88,24 @@ export default function Sidebar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="pages/samples/login.html">
+                <Link className="nav-link" to="/">
                   Login
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="pages/samples/register.html">
+              <Link className="nav-link" to="/">
                   Register
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="pages/samples/error-404.html">
+              <Link className="nav-link" to="/">
                   404
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="pages/samples/error-500.html">
+              <Link className="nav-link" to="/">
                   500
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

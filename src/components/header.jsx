@@ -28,7 +28,7 @@ export default function Header() {
           </li>
           <li className="nav-item dropdown"> Mbr Sagor </li>
           <li className="nav-item dropdown"> 
-              <Link to="/">Logout</Link>
+              <Link to="/login">Logout</Link>
            </li>
         </ul>
       </div>
