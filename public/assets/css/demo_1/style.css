@@ -258,7 +258,7 @@
       -webkit-transition: width 0.25s ease, background 0.25s ease;
       -moz-transition: width 0.25s ease, background 0.25s ease;
       -ms-transition: width 0.25s ease, background 0.25s ease;
-      background: #1c45ef;
+      background: #bb241b;
       width: 270px;
       height: 63px; }
       .navbar.default-layout .navbar-brand-wrapper .navbar-brand {
@@ -379,7 +379,7 @@
   /* Sidebar */
   .sidebar {
     min-height: calc(100vh - 63px);
-    background: linear-gradient(to top, #5768f3, #1c45ef);
+    background: linear-gradient(to top, #d13a51, #d13a31);
     font-family: "roboto", sans-serif;
     padding: 0;
     width: 270px;
@@ -533,7 +533,7 @@
         transition-timing-function: "ease-in-out";
         transition-property: "background", "color", "box-shadow", "padding"; }
       .sidebar > .nav:not(.sub-menu) > .nav-item:hover:not(.nav-profile):not(.hover-open) > .nav-link:not([aria-expanded="true"]) {
-        background: #0f25d5;
+        background: #bb241b;
         padding-left: 65px; }
         .sidebar > .nav:not(.sub-menu) > .nav-item:hover:not(.nav-profile):not(.hover-open) > .nav-link:not([aria-expanded="true"]):before {
           border-color: #fff; }
