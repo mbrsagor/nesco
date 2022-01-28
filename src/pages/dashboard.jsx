@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
-import Sidebar from './sidebar';
+import Sidebar from '../components/sidebar'
+import Footer from '../components/footer';
+import Header from '../components/header'
 
-export default function Layout() {
+export default function Dashboard() {
   return (
-    <div className="container-scroller">
-      <Header />
-      <div className="container-fluid page-body-wrapper">
+      <>
+       <Header />
+        <div className="container-fluid page-body-wrapper">
         <Sidebar />
         <div className="main-panel">
           <div className="content-wrapper">
@@ -579,6 +579,6 @@ export default function Layout() {
           <Footer />
         </div>
       </div>
-    </div>
+      </>
   );
 }

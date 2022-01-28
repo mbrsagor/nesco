@@ -1,10 +1,10 @@
-// import './scss/app.scss';
-import Layout from "./components/layout";
+import './scss/app.scss';
+import Blank from "./pages/blank";
 
 function App() {
   return (
     <>
-      <Layout />
+      <Blank />
     </>
   );
 }
