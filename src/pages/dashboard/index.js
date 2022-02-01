@@ -1,13 +1,13 @@
 import React from 'react';
-import Sidebar from '../components/sidebar'
-import Footer from '../components/footer';
-import Header from '../components/header'
+import Sidebar from '../../components/sidebar'
+import Footer from '../../components/footer';
+import Header from '../../components/header'
 
 export default function Dashboard() {
   return (
-      <>
-       <Header />
-        <div className="container-fluid page-body-wrapper">
+    <>
+      <Header />
+      <div className="container-fluid page-body-wrapper">
         <Sidebar />
         <div className="main-panel">
           <div className="content-wrapper">
@@ -300,7 +300,7 @@ export default function Dashboard() {
                             </div>
                             <h4 className="font-weight-semibold">$7,590</h4>
                             <div className="progress progress-md">
-                              <div className="progress-bar bg-danger" role="progressbar" style={{width: '78%'}} aria-valuenow="78" aria-valuemin="0" aria-valuemax="78"></div>
+                              <div className="progress-bar bg-danger" role="progressbar" style={{ width: '78%' }} aria-valuenow="78" aria-valuemin="0" aria-valuemax="78"></div>
                             </div>
                           </div>
                           <div className="col-md-6 mt-4 mt-md-0">
@@ -310,7 +310,7 @@ export default function Dashboard() {
                             </div>
                             <h4 className="font-weight-semibold">$5,460</h4>
                             <div className="progress progress-md">
-                              <div className="progress-bar bg-success" role="progressbar" style={{width: '45%'}} aria-valuenow="45" aria-valuemin="0" aria-valuemax="45"></div>
+                              <div className="progress-bar bg-success" role="progressbar" style={{ width: '45%' }} aria-valuenow="45" aria-valuemin="0" aria-valuemax="45"></div>
                             </div>
                           </div>
                         </div>
@@ -418,7 +418,7 @@ export default function Dashboard() {
                       <div className="card-body">
                         <h4 className="card-title mb-0">Top Performer</h4>
                         <div className="d-flex mt-3 py-2 border-bottom">
-                          <img className="img-sm rounded-circle" src="assets/images/faces/face3.jpg" alt="profile"/>
+                          <img className="img-sm rounded-circle" src="assets/images/faces/face3.jpg" alt="profile" />
                           <div className="wrapper ml-2">
                             <p className="mb-n1 font-weight-semibold">Ray Douglas</p>
                             <small>162543</small>
@@ -434,7 +434,7 @@ export default function Dashboard() {
                           <small className="text-muted ml-auto">4 Hours ago</small>
                         </div>
                         <div className="d-flex py-2 border-bottom">
-                          <img className="img-sm rounded-circle" src="assets/images/faces/face4.jpg" alt="profile"/>
+                          <img className="img-sm rounded-circle" src="assets/images/faces/face4.jpg" alt="profile" />
                           <div className="wrapper ml-2">
                             <p className="mb-n1 font-weight-semibold">Brian Dean</p>
                             <small>162543</small>
@@ -579,6 +579,6 @@ export default function Dashboard() {
           <Footer />
         </div>
       </div>
-      </>
+    </>
   );
 }
