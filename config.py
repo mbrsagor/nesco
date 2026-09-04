@@ -1,6 +1,6 @@
 BASE_URL = "https://customer.nesco.gov.bd/pre/panel"
 
-CUSTOMER_NUMBER = "17029000"
+CUSTOMER_NUMBER = "Your Customer Number"
 
 HEADERS = {
     "User-Agent": (
