@@ -16,6 +16,8 @@
 Install dependencies:
 
 ```bash
+virtualenv -p python3.14 .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
